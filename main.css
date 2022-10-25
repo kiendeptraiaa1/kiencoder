@@ -250,3 +250,153 @@ padding:4px 16 px ;
     background-color: #e8ca34
     
 }
+
+
+.btn_wrap{
+    display:flex;
+    width: 100%;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+   
+    justify-content:center;
+     cursor: pointer;
+   margin-bottom: 50px;
+   width: 100%;
+   align-items: center;
+   
+   
+ 
+
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+   
+}
+.btn--succsess{
+
+    width: 270px;
+    background-color: rgb(37, 216, 34);
+    padding: 8px 50px;
+    border-radius: 15px;
+   align-items: center;
+
+}
+.btn--warning{
+    width: 200px;
+    background-color: rgb(217, 237, 44);
+    padding: 8px 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+   
+
+  
+}
+.btn--error{
+    width: 200px;
+    background-color: rgb(235, 28, 28);
+    padding: 8px 50px;
+    border-radius: 15px;
+   
+  
+
+}
+.btn--disabled{
+  
+    opacity: 0.5 !important;
+    cursor: default !important;
+}
+
+.toast{
+    border-radius: 5px;
+    background-color: #fff;
+   display: flex;
+     align-items: center;
+   border-left: 5px  solid #51de53;
+   /* box-shadow: 0 5px 8px rgba(0,0, 0, 0.08) ; */
+   height:70px;
+   width: 500px;
+   margin: auto;
+   padding: 10px 0;
+   margin-top: 25px;
+}
+.toast__body {
+   
+    flex-direction:column;
+   
+}
+.toast_title{
+    font-size: 25px; 
+    margin-top: 15px;
+
+}
+
+
+.toast_note{
+    /* padding-top: 30px; */
+    
+}
+.toast__icon{
+    font-size: 30px;
+   padding: 16px;
+    margin-left: 10px;
+border-color: #51de53;
+
+}
+.toast__close{
+    font-size: 30px;
+    padding: 16px;
+    position: relative;
+    left: 45px;
+}
+
+ 
+.toast--succsess{
+    border-color: #47d864;
+   
+
+    
+}
+
+.toast--succsess .toast__icon{
+    color: #47d864;
+  
+}
+
+
+.toast--warning{
+   border-color: rgb(88, 104, 227);
+}
+.toast--warning  .toast__icon{
+    color:rgb(88, 104, 227);
+}
+
+
+
+.toast--error  {
+    border-color: #d6f050;
+}
+.toast--error .toast__icon {
+    color:#f05085;
+}
+    
+.toast--succsess .toast__close{
+    color:#47d864 ;
+
+}
+.toast--warning  .toast__close{
+    color:rgb(88, 104, 227)
+}
+.toast--error .toast__close{
+  color: #f05085;
+} 
